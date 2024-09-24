@@ -3,18 +3,18 @@ from django.http import HttpResponse, HttpResponseNotFound, HttpResponseRedirect
 from django.urls import reverse
 
 monthly_challenges = {
-    "january": "Eat no meat for the entire month!",
-    "february": "Walk for at least 20 minutes every day!",
-    "march": "Learn Django for at least 20 minutes every day!",
-    "april": "Eat no meat for the entire month!",
-    "may": "Walk for at least 20 minutes every day!",
-    "june": "Learn Django for at least 20 minutes every day!",
-    "july": "Eat no meat for the entire month!",
-    "august": "Walk for at least 20 minutes every day!",
-    "september": "Learn Django for at least 20 minutes every day!",
-    "october": "Eat no meat for the entire month!",
-    "november": "Walk for at least 20 minutes every day!",
-    "december": "Learn Django for at least 20 minutes every day!"
+    "january": "Read at least one book this month!",
+    "february": "Try a new recipe every week!",
+    "march": "Do 10 minutes of meditation daily!",
+    "april": "Spend 30 minutes a day learning a new language!",
+    "may": "Do 25 push-ups daily!",
+    "june": "Write in a journal every day!",
+    "july": "Practice a new hobby for at least 30 minutes daily!",
+    "august": "Drink at least 8 cups of water every day!",
+    "september": "Declutter one area of your home each day!",
+    "october": "Avoid sugary snacks for the entire month!",
+    "november": "Compliment at least one person every day!",
+    "december": "Practice gratitude by listing three things you're thankful for daily!"
 }
 
 # Create your views here.
