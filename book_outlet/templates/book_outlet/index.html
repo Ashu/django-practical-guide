@@ -14,6 +14,6 @@
     <hr>
 
     <p>Total Number of Book: {{ total_number_of_books }}</p>
-    <p>Average Rating: {{ average_rating.rating__avg }}</p>
+    <p>Average Rating: {{ average_rating.rating__avg|floatformat:2  }}</p>
 
 {% endblock content %}
