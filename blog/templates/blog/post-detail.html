@@ -12,12 +12,13 @@
 {% block content %}
 
 {% if comment_form.errors %}
-<div> 
+<div id="alert"> 
     <h2>Saving the comment failed!</h2>
     <p>Please check the comment form below the post and fix the errors.</p>
     <a href="#comment-form">Fix!</a>
 </div>
 {% endif %}
+
     <section id="summary">
         <h2>{{ post.title }}</h2>
         <div>{% for tag in post_tags %}
